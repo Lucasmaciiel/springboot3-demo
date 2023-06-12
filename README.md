@@ -11,6 +11,7 @@
 - Spring Data JPA
 - Spring Validation
 - Spring Hateoas
+- Records Java 16 - DTOs
 
 ### Subindo banco local com docker
  docker run --name products-api -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -p 5432:5432 -d bitnami/postgresql
