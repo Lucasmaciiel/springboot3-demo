@@ -1,11 +1,11 @@
 package com.lmg.springboot.repositories;
 
-import com.lmg.springboot.models.ProductsModel;
+import com.lmg.springboot.models.ProductModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.UUID;
 
 @Repository
-public interface ProductRepository extends JpaRepository<ProductsModel, UUID> {
+public interface ProductRepository extends JpaRepository<ProductModel, UUID> {
 }
